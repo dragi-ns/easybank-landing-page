@@ -21,6 +21,10 @@ module.exports = {
         'light-grayish-blue': 'hsl(220, 16%, 96%)',
         'very-light-gray': 'hsl(0, 0%, 98%)',
       },
+      backgroundImage: {
+        'mobile-nav-gradient':
+          'linear-gradient(180deg, hsla(233, 26%, 24%, 0.9) 0%, hsla(233, 26%, 24%, 0.2) 80%, hsla(233, 26%, 24%, 0) 100%)',
+      },
     },
   },
   plugins: [],
