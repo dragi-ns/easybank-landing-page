@@ -26,7 +26,7 @@ module.exports = {
           'linear-gradient(180deg, hsla(233, 26%, 24%, 0.9) 0%, hsla(233, 26%, 24%, 0.2) 80%, hsla(233, 26%, 24%, 0) 100%)',
       },
       gridTemplateColumns: {
-        features: 'repeat(auto-fit, minmax(250px, 1fr) );',
+        section: 'repeat(auto-fit, minmax(250px, 1fr) );',
       },
     },
   },
