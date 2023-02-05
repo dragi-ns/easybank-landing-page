@@ -24,9 +24,11 @@ module.exports = {
       backgroundImage: {
         'mobile-nav-gradient':
           'linear-gradient(180deg, hsla(233, 26%, 24%, 0.9) 0%, hsla(233, 26%, 24%, 0.2) 80%, hsla(233, 26%, 24%, 0) 100%)',
+        'intro-mobile': "url('../images/bg-intro-mobile.svg')",
+        'intro-desktop': "url('../images/bg-intro-desktop.svg')",
       },
       gridTemplateColumns: {
-        section: 'repeat(auto-fit, minmax(250px, 1fr) );',
+        section: 'repeat(auto-fit, minmax(249px, 1fr) );',
       },
     },
   },

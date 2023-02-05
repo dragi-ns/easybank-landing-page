@@ -12,8 +12,8 @@
   </head>
   <body class="text-lg text-dark-blue">
     <!-- HEADER START -->
-    <header class="shadow-sm relative">
-      <div class="container flex items-center justify-between py-7 lg:py-0">
+    <header class="bg-white shadow-sm relative z-50">
+      <div class="container flex items-center justify-between py-6 lg:py-0">
         <!-- LOGO START -->
         <div>
           <a href="#">
@@ -148,9 +148,38 @@
     </header>
     <!-- HEADER END -->
     <main>
+      <!-- INTRO START -->
+      <section class="bg-very-light-gray flex flex-col-reverse">
+        <div class="container text-center pb-20">
+          <div class="max-w-[600px] mx-auto">
+            <h2 class="text-[2.5rem] leading-tight mb-5">
+              Next generation digital banking
+            </h2>
+            <p class="text-sm md:text-base text-grayish-blue mb-8">
+              Take your financial life online. Your Easybank account will be a
+              one-stop-shop for spending, saving, budgeting, investing, and much
+              more.
+            </p>
+            <button
+              class="bg-gradient-to-r from-lime-green to-bright-cyan hover:from-[hsl(136,100%,61%)] hover:to-[hsl(192,100%,61%)] rounded-full text-white text-base font-bold px-8 lg:px-10 py-3 lg:py-4">
+              Request Invite
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="min-h-[315px] bg-intro-mobile bg-no-repeat bg-[right_0_top_-45px] bg-[length:100%_400px] relative">
+          <img
+            class="absolute -top-1/2 left-1/2 -translate-x-1/2 max-w-[375px]"
+            src="./images/image-mockups.png "
+            alt="" />
+        </div>
+      </section>
+      <!-- INTRO END -->
+
       <!-- FEATURES START -->
       <section class="bg-light-grayish-blue">
-        <div class="container text-center lg:text-left py-24">
+        <div class="container text-center lg:text-left py-16">
           <!-- FEATURES WHY START -->
           <div class="flex flex-col gap-5 mb-14 max-w-2xl mx-auto lg:mx-0">
             <h2 class="text-4xl lg:text-5xl">Why choose Easybank?</h2>
@@ -220,7 +249,7 @@
       <!-- LATEST ARTICLES START -->
       <section class="bg-very-light-gray">
         <div class="container py-24">
-          <h2 class="text-4xl lg:text-5xl text-center lg:text-left mb-14">
+          <h2 class="text-4xl lg:text-5xl text-center lg:text-left mb-8">
             Latest Articles
           </h2>
 
